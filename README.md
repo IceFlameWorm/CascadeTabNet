@@ -13,7 +13,7 @@
 > [arXiv Link of Paper](https://arxiv.org/abs/2004.12629)<br>
 > <a href="results.pdf">Supplementary file</a> <br>
 > The paper was presented (Orals) at [CVPR 2020 Workshop on Text and Documents in the Deep Learning Era](https://cvpr2020text.wordpress.com/)<br>
-> Virtual Oral Presentation [Video](https://www.youtube.com/watch?v=6rovEyWKZw8)
+> Virtual Oral Presentation [YOUTUBE VIDEO](https://www.youtube.com/watch?v=6rovEyWKZw8)
 <img align="right" src="imgs/CVPR Teaser.gif" />
 
 ## 1. Introduction
@@ -125,6 +125,12 @@ We manually corrected the annotations of Marmot and <a href="https://github.com/
 You may refer this <a href="https://www.dlology.com/blog/how-to-train-an-object-detection-model-with-mmdetection/">tutorial</a> for training Mmdetection models on your custom datasets in colab.<br>
 
 You may refer this <a href="/Data Preparation/generateVOC2JSON.py">script</a> to convert your Pascal VOC XML annotation files to a single COCO Json file.
+
+## 9. Docker
+
+The docker image of this project can be found at <a href="https://hub.docker.com/repository/docker/akadirpamukcu/tabnet">docker hub</a> 
+
+It currently contains three models from model zoo. For details you can check the readme file at the docker hub.
 
 ## Contact
 Devashish Prasad : devashishkprasad [at] gmail [dot] com <br>
